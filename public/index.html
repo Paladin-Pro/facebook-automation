@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Facebook App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>My Facebook App</h1>
+    <form id="facebook-form">
+      <label for="username">Enter a Facebook username:</label>
+      <input type="text" id="username" name="username" required>
+      <br>
+
+      <label for="post-link">Enter a Facebook post link:</label>
+      <input type="text" id="post-link" name="post-link" required>
+      <br>
+
+      <label for="action">Select an action:</label>
+      <select id="action" name="action">
+        <option value="like">Like</option>
+        <option value="comment">Comment</option>
+        <option value="react">React</option>
+      </select>
+      <br>
+
+      <label for="comment">Enter a comment (optional):</label>
+      <input type="text" id="comment" name="comment">
+      <br>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

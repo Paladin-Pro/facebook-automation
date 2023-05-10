@@ -7,6 +7,7 @@ To use this app, you will need to have a Facebook account and create a new Faceb
 To run the app, you will need to install Node.js and npm. Clone or download this repository, then navigate to the project directory and run the following commands:
 
 **npm install**
+
 **npm start**
 
 This will start a local development server at http://localhost:3000, where you can access the app in your web browser.
